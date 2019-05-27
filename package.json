@@ -1,0 +1,20 @@
+{
+  "name": "image-tiler",
+  "version": "1.0.0",
+  "description": "Tiles an image for web consumption",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/mbround18/image-tiler",
+  "author": "Michael Bruno",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "sharp": "^0.22.1",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "tslint": "^5.16.0"
+  }
+}
